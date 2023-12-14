@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hello-project"
+version = "0.1.0"
+description = ""
+authors = ["RicardoSDexcom"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.31.0"
+numpy = "^1.26.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
