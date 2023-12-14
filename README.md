@@ -1,8 +1,11 @@
 ## Installation 
+```
 cd poetryPY
-poetry install
-poetry run python hello_project/__init__.py
 
+poetry install
+
+poetry run python hello_project/__init__.py
+```
 
 ## links
 https://python-poetry.org/docs/cli/
