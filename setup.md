@@ -18,13 +18,20 @@ pip3 install poetry
 poetry -V
 ```
 
-## Create project using Poetry
+## Create a new project using Poetry
 ```
 mkdir poetry_demo
 
 poetry new hello_project
 
-cd hello_project
+ls
 
+```
+
+## add dependency using poetry
+```
+poetry add requests
+
+poetry add --group dev requests numpy
 
 ```
