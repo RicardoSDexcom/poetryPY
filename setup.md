@@ -35,3 +35,9 @@ poetry add requests
 poetry add --group dev requests numpy
 
 ```
+
+## Run script using poetry
+```
+poetry run python  hello_project/__init__.py
+```
+
