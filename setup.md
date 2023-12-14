@@ -24,5 +24,7 @@ mkdir poetry_demo
 
 poetry new hello_project
 
+cd hello_project
+
 
 ```
