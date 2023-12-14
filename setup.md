@@ -19,6 +19,7 @@ poetry -V
 ```
 
 ## Create a new project using Poetry
+https://python-poetry.org/docs/cli/
 ```
 mkdir poetry_demo
 
